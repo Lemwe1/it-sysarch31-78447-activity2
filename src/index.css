@@ -1,3 +1,4 @@
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -13,12 +14,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
   flex-grow: 1;
+  margin-bottom:100px;
 }
 
 h1 {
@@ -47,8 +48,7 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+   
   }
   a:hover {
     color: #747bff;
@@ -109,8 +109,11 @@ img{
 }
 
 footer{
-    margin-left: 50px;
-    margin-top: 190px;
-    position: sticky;
+    width:100%;
+    position: fixed;
+    bottom:0;
+    background-color: #6471f5;
+    padding:15px;
+    
   
 }
